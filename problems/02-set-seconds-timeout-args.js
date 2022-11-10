@@ -24,6 +24,8 @@ setSecondsTimeoutArgs(function(arg1, arg2) {
 
 function setSecondsTimeoutArgs(cb, delayInSeconds, ...args) {
   // Your code here
+  let varr = delayInSeconds * 1000.0
+  setTimeout(cb,varr,...args)
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
